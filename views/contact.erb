@@ -1,20 +1,53 @@
+<section>
+  <div class="ph-dot-nav nav">
+<a href="/">Home</a>
+<a href="gallery"">Gallery</a>
+<a href="contact">Contact</a>
+<a href="cookies">Cookies</a>
+<a href="cake">Cakes</a>
+<a href="muffins">Muffins</a>
+<img src="images/bread.png">
+<div class="effect"></div>
+</div>
+</section>
 
-<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-  <div class="row">
-    <label class="required" for="name">Your name:</label><br />
-    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-    <span id="name_validation" class="error_message"></span>
-  </div>
-  <div class="row">
-    <label class="required" for="email">Your email:</label><br />
-    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-    <span id="email_validation" class="error_message"></span>
-  </div>
-  <div class="row">
-    <label class="required" for="message">Your message:</label><br />
-    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-    <span id="message_validation" class="error_message"></span>
-  </div>
 
-    <input id="submit_button" type="submit" value="Send email" />
+<div id="login-button">
+  <img src="https://dqcgrsy5v35b9.cloudfront.net/cruiseplanner/assets/img/icons/login-w-icon.png">
+  </img>
+</div>
+<div id="main-container">
+  <h1>Request Information</h1>
+  <span class="close-btn">
+    <img src="https://cdn4.iconfinder.com/data/icons/miu/22/circle_close_delete_-128.png"></img>
+  </span>
+
+  <form>
+    <input type="email" name="email" placeholder="E-mail">
+    <input type="password" name="pass" placeholder="Password">
+    <a href="#">Send</a>
+    <div id="remember-container">
+      <input type="checkbox" id="checkbox-2-1" class="checkbox" checked="checked"/>
+      <span id="remember">Remember me</span>
+      <span id="forgotten">Quick Review</span>
+    </div>
 </form>
+</div>
+
+<!-- Forgotten Password Container -->
+<div id="forgotten-container">
+   <h1>Feedback</h1>
+  <span class="close-btn">
+    <img src="https://cdn4.iconfinder.com/data/icons/miu/22/circle_close_delete_-128.png"></img>
+  </span>
+
+  <form>
+    <input type="text"  placeholder="Review">
+    <a href="#" class="orange-btn">THANKS For Your Feedback</a>
+</form>
+</div>
+
+<link rel="stylesheet" href="main.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+<script src="main.js"></script>
