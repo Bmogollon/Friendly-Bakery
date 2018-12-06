@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<form  action="/cookies">
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"></i></button>
+</form>
+
+<%PRODUCTS.each do |products| %>
+  <div class="product-display">
+    <img src=<%=products.images%>>
+    <p><strong><%=products.name%></strong> &nbsp $<%=products.price%></p>
+    <p><%=products.info%></p>
+  </div>
+  <%end%>

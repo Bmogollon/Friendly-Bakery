@@ -1,0 +1,47 @@
+<!-- <h2>The Cakes</h2> -->
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<div class="container">
+  <%= @cinamon.name %>
+  <div class="row">
+    <div class="col-sm">
+      <div class ="bakery-img">
+        <img src= <%= @cinamon.images %>> <br>
+        <p>$<%= @cinamon.price %></p>
+        <p><%= @cinamon.info %></p>
+        <button class="teal large ui inverted white button"></i>+ Add to cart</button>
+      </div>
+    </div>
+
+    <div class="col-sm">
+      <%= @Banana_Muffin.name %>
+      <div class ="bakery-img">
+        <img src= <%= @Banana_Muffin.images %>><br>
+        <p>$<%= @Banana_Muffin.price %></p>
+        <p><%= @Banana_Muffin.info %></p>
+        <button class="teal large ui inverted white button"></i>+ Add to cart</button>
+
+
+      </div>
+    </div>
+
+    <div class="col-sm">
+      <%= @corn.name %>
+      <div class ="bakery-img">
+        <img src= <%= @corn.images %>><br>
+        <p>$<%= @corn.price %></p>
+        <p><%= @corn.info %></p>
+        <button class="teal large ui inverted white button"></i>+ Add to cart</button>
+
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+
+
+
+<!-- </div> -->

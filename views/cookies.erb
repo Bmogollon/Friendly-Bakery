@@ -1,0 +1,48 @@
+<!-- <h2>The Cakes</h2> -->
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<!-- <div class = main-container-cake> -->
+<div class="container">
+  <%= @cutout.name %>
+  <div class="row">
+    <div class="col-sm">
+      <div class ="bakery-img">
+        <img src= <%= @cutout.images %>> <br>
+        <p>$<%= @cutout.price %></p>
+        <p><%= @cutout.info %></p>
+        <button class="teal large ui inverted white button"></i>+ Add to cart</button>
+      </div>
+    </div>
+
+    <div class="col-sm">
+      <%= @peanut.name %>
+      <div class ="bakery-img">
+        <img src= <%= @peanut.images %>><br>
+        <p>$<%= @peanut.price %></p>
+        <p><%= @peanut.info %></p>
+        <button class="teal large ui inverted white button"></i>+ Add to cart</button>
+
+
+      </div>
+    </div>
+
+    <div class="col-sm">
+      <%= @monster.name %>
+      <div class ="bakery-img">
+        <img src= <%= @monster.images %>><br>
+        <p>$<%= @monster.price %></p>
+        <p><%= @monster.info %></p>
+        <button class="teal large ui inverted white button"></i>+ Add to cart</button>
+
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+
+
+
+<!-- </div> -->

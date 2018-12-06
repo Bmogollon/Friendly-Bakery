@@ -1,0 +1,43 @@
+<!-- <h2>The Cakes</h2> -->
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<!-- <div class = main-container-cake> -->
+<div class="container">
+  <%= @banana.name %>
+  <div class="row">
+    <div class="col-sm">
+      <div class ="bakery-img">
+        <img src= <%= @banana.images %>> <br>
+        <p>$<%= @banana.price %></p>
+        <p><%= @banana.info %></p>
+      </div>
+    </div>
+
+    <div class="col-sm">
+      <%= @blueberry.name %>
+      <div class ="bakery-img">
+        <img src= <%= @blueberry.images %>><br>
+        <p>$<%= @blueberry.price %></p>
+        <p><%= @blueberry.info %></p>
+
+      </div>
+    </div>
+
+    <div class="col-sm">
+      <%= @apple.name %>
+      <div class ="bakery-img">
+        <img src= <%= @apple.images %>><br>
+        <p>$<%= @apple.price %></p>
+        <p><%= @apple.info %></p>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+
+
+
+<!-- </div> -->
