@@ -1,19 +1,34 @@
 html{
-  background-color: lightgrey;
-}
-.home-img img {
-  display: block;
-  margin: auto;
-    width: 50%;
-    padding: 10px;
+  background-color: white;
+font-family: 'Great Vibes', cursive;
 }
 
+/* ******************************************** */
+/* GRID IMAGES */
 
 .bakery-img img{
   height: 200px;
   width: 200px;
 }
 
+/* GRID CONTAINER BORDER */
+
+    .container{
+    box-shadow: 1px 1px #888888;
+    font-family: 'Great Vibes', cursive;
+    font-size: 16.8px;
+    }
+
+    .container img{
+      border: 1px solid black;
+        outline: 2px  solid #888888;
+
+    }
+
+
+/* **************************************** */
+
+        /* BOOSTRAP CAROUSEL */
 
 .carousel-inner > .item > img,
       .carousel-inner > .item > a > img {
@@ -21,27 +36,30 @@ html{
           height: 510px;
           margin: auto;
 }
+.carousel-caption{
+  color:rgba(66, 18, 2, 1);
+}
+
+.right, .carousel-control{
+  background-color: rgba(119, 190, 196, 0.31);
+}
+
 /* *************************************************************** */
             /* HEADER!!!! */
-
-
-
 
 section {
   font-family: "Unica One";
   font-size: 1.5em;
-  text-shadow: 0 1px 0 white; }
+  text-shadow: 0 1px 0 white;
+}
 
 
 
 .nav {
   text-align: center;
   overflow: hidden;
-  /* margin: 2em auto; */
   width: 100%;
   position: relative;
-
-
 
 }
   .nav a {
@@ -58,7 +76,7 @@ section {
 	  -ms-transition: .7s;
 	  transition: .7s; }
 	  .nav a:hover {
-	    color: orange; }
+	    color:rgba(231, 151, 72, 0.74); }
 
 .ph-dot-nav img {
   height: 60px;
@@ -111,7 +129,12 @@ section {
   /* *************************************************** */
                   /* FOOOTER!!! */
 
-  #mainFooter .footer-right {width: calc(100% - 126px);display: block;float: right;text-align: right;}
+  #mainFooter .footer-right {
+    width: calc(100% - 126px);
+    display: block;
+    float: right;
+    text-align: right;
+  }
 
   .social-nav li, .legal-nav li {
     display: inline-block;
@@ -176,23 +199,11 @@ section {
 
 
 
-        /* ********************************************* */
-
-
-    .container{
-    box-shadow: 1px 1px #888888;
-    font-family: 'Great Vibes', cursive;
-    font-size: 16.8px;
-    }
-
-    .container img{
-      border: 1px solid black;
-        outline: 2px  solid #888888;
-
-    }
 
     /* ********************************** */
       /* CONTACT INFORMATION */
+
+
 
     img{
       display: block;
@@ -218,7 +229,7 @@ section {
       opacity: 0.4;
       box-shadow: 10px 10px 30px #000;}
 
-    /* Login container */
+
     #main-container{
       position: absolute;
       top: 0;
@@ -256,18 +267,17 @@ section {
       opacity: .5;
     }
 
-    /* Heading */
+
   #main-container h1{
       font-family: 'Open Sans Condensed', sans-serif;
       position: relative;
       margin-top: 0px;
       text-align: center;
       font-size: 40px;
-      color: #ddd;
+      color: lightblue;
       text-shadow: 3px 3px 10px #000;
     }
 
-    /* Inputs */
     #main-container a,
     input{
       font-family: 'Open Sans Condensed', sans-serif;
@@ -294,9 +304,7 @@ section {
       background: rgba(3,3,3,.18);
     }
 
-    /* Placeholders */
 
-    /* Link */
     #main-container a{
       font-family: 'Open Sans Condensed', sans-serif;
       text-align: center;
@@ -353,7 +361,7 @@ section {
       left: 20px;
     }
 
-    #forgotten{
+    #feedback{
       position: absolute;
       font-size: 12px;
       font-family: 'Hind', sans-serif;
@@ -367,11 +375,11 @@ section {
       transition: all 0.2s ease-in-out;
     }
 
-    #forgotten:hover{
+    #feedback:hover{
       color: rgba(255,255,255,.6);
     }
 
-    #forgotten-container{
+    #feedback-container{
       position: absolute;
       top: 0;
       left: 0;
