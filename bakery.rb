@@ -31,18 +31,18 @@ get "/cookies" do
 
   @peanut = Cookie.new("Peanut Butter Cookie", 124.23, "It is amazing how much flavor these simple peanut butter cookies have. I make them very often because I always have the ingredients on hand. —Maggie Schimmel, Wauwatosa, Wisconsin","images/peanut.png" )
 
-  @monster = Cookie.new("Monster Cookie", 1240.22, "Who can resist gigantic monster cookies chock-full of goodies like chocolate chips, M&M’s and peanut butter? If your appetite isn’t quite monster-size, make them by heaping tablespoonfuls. —Judy Fredenberg, Missoula, Montana", "images/monster.png" )
+  @monster = Cookie.new("Monster Cookie", "1,240.22", "Who can resist gigantic monster cookies chock-full of goodies like chocolate chips, M&M’s and peanut butter? If your appetite isn’t quite monster-size, make them by heaping tablespoonfuls. —Judy Fredenberg, Missoula, Montana", "images/monster.png" )
 
 erb :cookies
 end
 
 
 get "/muffins" do
-  @cinamon = Muffin.new("Apple Cinamon Muffin", 12425.22, "These apple-cinnamon muffins pack a huge apple flavor thanks to apple cider and chopped apples, with a fabulous cinnamon-sugar crunch on top.", "images/cinamon.png" )
+  @cinamon = Muffin.new("Apple Cinamon Muffin", "12,425.22", "These apple-cinnamon muffins pack a huge apple flavor thanks to apple cider and chopped apples, with a fabulous cinnamon-sugar crunch on top.", "images/cinamon.png" )
 
-  @Banana_Muffin = Muffin.new("Banana Muffin", 1535324.23, "These have been a favorite of mine for over 10 years. It’s one of the first recipes I started baking over and over again. They’re sweet and delicious – breakfast or dessert!.Banana bread is a type of bread made from mashed bananas. It is often a moist, sweet, cake-like quick bread","images/banana-muffin.png" )
+  @Banana_Muffin = Muffin.new("Banana Muffin"," 1,535,324.23", "These have been a favorite of mine for over 10 years. It’s one of the first recipes I started baking over and over again. They’re sweet and delicious – breakfast or dessert!.Banana bread is a type of bread made from mashed bananas. It is often a moist, sweet, cake-like quick bread","images/banana-muffin.png" )
 
-  @corn = Muffin.new("Cornbread Muffin", 12532530.22, "These savory corn muffins are loaded with corn flavor and are the perfect accompaniment to chili or your favorite stew.", "images/cornbread.png" )
+  @corn = Muffin.new("Cornbread Muffin"," 12,532,530.22", "These savory corn muffins are loaded with corn flavor and are the perfect accompaniment to chili or your favorite stew.", "images/cornbread.png" )
 
 erb :muffins
 end

@@ -15,6 +15,6 @@ class Newsletter < ActionMailer::Base
   def welcome(recipient)
     @recipient = recipient
     mail(to: recipient,
-         subject: "Thank You For Your Request #{recipient}")
+         subject: "Thank You For Your Request ")
   end
 end
