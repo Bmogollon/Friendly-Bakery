@@ -1,6 +1,6 @@
 html{
-  background-color: white;
 font-family: 'Great Vibes', cursive;
+background-color: rgba(214, 196, 187, 0.44);
 }
 
 /* ******************************************** */
@@ -344,12 +344,12 @@ section {
     }
 
     .checkbox:checked:after {
-    	content: '\2714';
-    	font-size: 10px;
-    	position: absolute;
-    	top: 0px;
-    	left: 10px;
-    	color: #fff;
+      content: '\2714';
+      font-size: 22px;
+      position: absolute;
+      top: -4px;
+      left: 0px;
+      color: rgba(66, 18, 2, 1);
     }
 
     #remember{
