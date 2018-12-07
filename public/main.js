@@ -18,7 +18,6 @@ $(".close-btn").click(function() {
   });
 });
 
-/* Forgotten Password */
 $("#forgotten").click(function() {
   $("#main-container").fadeOut(function() {
     $("#forgotten-container").fadeIn();

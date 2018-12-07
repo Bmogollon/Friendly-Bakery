@@ -18,11 +18,3 @@ class Newsletter < ActionMailer::Base
          subject: "[Signed up] Welcome #{recipient}")
   end
 end
-
-
-
-## you need a folder whose name matches the name of the class inheriting from
-## actionmailer base
-
-##in that folder (newsletter)
-##you need at least 2 files: (function).html.erb AND (function).text.erb

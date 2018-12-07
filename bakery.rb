@@ -11,7 +11,7 @@ end
 
 
 get "/" do
-# puts ENV['EMAIL_USERNAME']
+
 erb :home
 end
 
